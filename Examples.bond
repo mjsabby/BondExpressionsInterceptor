@@ -1,0 +1,9 @@
+namespace Examples
+
+struct Record
+{
+    0: string Name;
+    1: map<int32, string> Int2StringMap;
+    2: vector<double> Constants;
+    3: map<string, string> String2StringMap;
+}
